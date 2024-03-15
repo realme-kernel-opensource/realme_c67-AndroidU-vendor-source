@@ -1,0 +1,1 @@
+#include "SC6607_FLASH_SETTING.h"

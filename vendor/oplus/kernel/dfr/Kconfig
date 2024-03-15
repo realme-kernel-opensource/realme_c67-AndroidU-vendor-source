@@ -1,0 +1,20 @@
+# SPDX-License-Identifier: GPL-2.0-only
+# Copyright (C) 2018-2022 Oplus. All rights reserved.
+
+#ifdef OPLUS_FEATURE_QCOM_WATCHDOG
+source "drivers/soc/oplus/dfr/qcom/qcom_watchdog/Kconfig"
+#endif /* OPLUS_FEATURE_QCOM_WATCHDOG */
+
+#ifdef OPLUS_FEATURE_DUMP_DEVICE_INFO
+source "drivers/soc/oplus/dfr/qcom/dump_device_info/Kconfig"
+#endif /* OPLUS_FEATURE_DUMP_DEVICE_INFO */
+
+source "drivers/soc/oplus/dfr/common/shutdown_detect/Kconfig"
+
+source "drivers/soc/oplus/dfr/qcom/qcom_watchdog/Kconfig"
+
+source "drivers/soc/oplus/dfr/qcom/qcom_pmicwd/Kconfig"
+
+source "drivers/soc/oplus/dfr/qcom/qcom_pmic_monitor/Kconfig"
+
+source "drivers/soc/oplus/dfr/common/hung_task_enhance/Kconfig"

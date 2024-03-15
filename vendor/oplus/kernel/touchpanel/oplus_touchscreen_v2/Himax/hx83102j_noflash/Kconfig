@@ -1,0 +1,13 @@
+
+#ifdef OPLUS_FEATURE_TP_BASIC
+#Added by ZhongWenjie@Bsp.group.Tp for himax hx833112A NOFLASH ic driver
+
+config TOUCHPANEL_HIMAX_HX83102J_NOFLASH
+#	default y
+	tristate "TP himax hx83102j no-flash IC enable or not for OPLUS"
+	help
+	Say Y to enable driver for Touchpanel useing himax hx83102j no-flash
+	Say M to enable driver for Touchpanel useing himax hx83102j no-flash as module
+
+#endif
+
